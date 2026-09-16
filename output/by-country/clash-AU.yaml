@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 82.198.246.233
+  server: 82.198.246.37
   port: 180
   udp: true
   type: vmess
@@ -27,14 +27,14 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: css.rbxcdn.com
+  sni: whatsapp.com
   skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   server: au1.gsafevpnapi.com
   port: 20270
   udp: true
   type: vless
-  uuid: 8da6f662-e36b-4eff-99f9-43a842911707
+  uuid: e9e24ed8-b007-4e29-b54f-1ece641e60fb
   flow: xtls-rprx-vision
   tls: true
   reality-opts:

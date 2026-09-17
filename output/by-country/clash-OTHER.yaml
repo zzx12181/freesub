@@ -5,20 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.91.129
-  port: 443
+  server: 104.21.57.84
+  port: 8443
   udp: true
-  type: vless
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: edfc774f.69lover.site
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
+    path: /lMnsZUN4/
     headers:
-      Host: edfc774f.69lover.site
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select

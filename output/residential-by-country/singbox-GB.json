@@ -5,18 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
-      "server": "185.255.179.11",
-      "server_port": 9443,
-      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
+      "tag": "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe",
+      "server": "162.159.153.4",
+      "server_port": 443,
+      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
       "tls": {
         "enabled": true,
-        "server_name": "hub-lv-01.hanvpn.cc",
+        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
         "insecure": false
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "lv01-grpc-8e47a"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
+        }
       }
     },
     {
@@ -24,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+        "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+        "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

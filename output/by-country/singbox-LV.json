@@ -7,21 +7,35 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
       "server": "185.135.86.175",
-      "server_port": 9036,
-      "method": "aes-256-cfb",
-      "password": "hbtvgUz5uNYyB3Rf"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
-      "server": "185.135.86.175",
       "server_port": 9033,
       "method": "aes-256-cfb",
       "password": "UTJA57ypk2XKQpnm"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
+      "server": "185.135.86.175",
+      "server_port": 9036,
+      "method": "aes-256-cfb",
+      "password": "hbtvgUz5uNYyB3Rf"
+    },
+    {
       "type": "vless",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe",
+      "server": "atomic-prase23893.my-vm.work",
+      "server_port": 8088,
+      "uuid": "f7c74a35-1da0-5097-9fa7-a20735610ac1",
+      "transport": {
+        "type": "ws",
+        "path": "/api",
+        "headers": {
+          "Host": "queuev4.vk.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe",
       "server": "46.243.142.227",
       "server_port": 10443,
       "uuid": "a85ddf9f-329b-4c31-a80a-cd0f2e5b2a30",
@@ -50,7 +64,8 @@
         "auto",
         "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe",
+        "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe"
       ]
     },
     {
@@ -59,7 +74,8 @@
       "outbounds": [
         "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe",
+        "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

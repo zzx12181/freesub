@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇪 比利时 (Belgium) 01 - xiaohe
-  server: 2.27.244.164
-  port: 8443
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: 104.21.39.176
+  port: 443
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
   tls: true
-  servername: cdn8848.776676.xyz
+  servername: 4-M13.aYuttHAYa.KDns.fr
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /channels/act
+    path: /ED3ZQPu7lqyeDGD58KabZ
     headers:
-      Host: cdn8848.776676.xyz
+      Host: 4-M13.AYUtTHAya.KdNS.fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 rules:
 - MATCH,PROXIES

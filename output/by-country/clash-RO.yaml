@@ -21,7 +21,7 @@ proxies:
   sni: google.com
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
-  server: 85.204.107.178
+  server: 85.204.107.185
   port: 8443
   udp: true
   type: hysteria2

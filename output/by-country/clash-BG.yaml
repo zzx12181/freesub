@@ -13,6 +13,7 @@ proxies:
   tls: true
   servername: neth9.lunariai.ru
   skip-cert-verify: true
+  client-fingerprint: chrome
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: prep.wwwinternetvideo.click
   port: 443

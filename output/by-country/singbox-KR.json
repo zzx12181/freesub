@@ -4,12 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇰🇷 韩国 (South Korea) 01 - xiaohe",
-      "server": "211.178.105.134",
-      "server_port": 6123,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
+      "server": "131.186.19.174",
+      "server_port": 50160,
+      "password": "7302ad33229de166d393cd56143a1e4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "speedtest.tinkoff.ru",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
@@ -45,44 +49,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 04 - xiaohe",
-      "server": "152.67.200.82",
-      "server_port": 50160,
-      "password": "3d7634af8cb2c6cb4bac1c0efad8b43d",
-      "tls": {
-        "enabled": true,
-        "server_name": "vk.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
-      "server": "152.69.231.175",
-      "server_port": 50160,
-      "password": "1beb216e3f60aea9555dae60d219a5ca",
-      "tls": {
-        "enabled": true,
-        "server_name": "152-69-231-175.liao.kdns.fr",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
-      "server": "vpn-kr-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ9wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-kr-002.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 04 - xiaohe",
       "server": "151.245.106.49",
       "server_port": 2053,
       "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
@@ -102,7 +70,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
       "server": "3.39.4.109",
       "server_port": 13672,
       "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
@@ -112,7 +80,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -123,7 +91,19 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 09 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
+      "server": "152.67.200.82",
+      "server_port": 50160,
+      "password": "3d7634af8cb2c6cb4bac1c0efad8b43d",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
       "server": "150-230-252-217.liao.kdns.fr",
       "server_port": 50160,
       "password": "9cfc9458e48c028ec03ff86ebc71c744",
@@ -135,11 +115,23 @@
     },
     {
       "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 10 - xiaohe",
-      "server": "140.238.2.250",
+      "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
+      "server": "8ntzyr5knivfabat.v.3dns.vip",
       "server_port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-      "security": "auto"
+      "uuid": "f0b7bbd66aad458aaec0e9acaab768b6",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "8ntzyr5knivfabat.v.3dns.vip",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "8ntzyr5knivfabat.v.3dns.vip"
+        }
+      }
     },
     {
       "type": "selector",
@@ -153,9 +145,7 @@
         "🇰🇷 韩国 (South Korea) 05 - xiaohe",
         "🇰🇷 韩国 (South Korea) 06 - xiaohe",
         "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 08 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 09 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 10 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 08 - xiaohe"
       ]
     },
     {
@@ -169,9 +159,7 @@
         "🇰🇷 韩国 (South Korea) 05 - xiaohe",
         "🇰🇷 韩国 (South Korea) 06 - xiaohe",
         "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 08 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 09 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 10 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇪 比利时 (Belgium) 01 - xiaohe
-  server: 172.67.134.136
+- name: 🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe
+  server: 172.67.251.117
   port: 443
   udp: true
   type: vless
-  uuid: fa45096d-bed0-ad80-c773-23c300000003
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: true
-  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+  servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
+      Host: 05agj.gkef.zhs.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇪 比利时 (Belgium) 01 - xiaohe
+  - 🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

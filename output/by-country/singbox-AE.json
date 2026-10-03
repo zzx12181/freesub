@@ -20,15 +20,24 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-      "server": "217.60.33.215",
+      "server": "node-nl.shtormvpn.shop",
       "server_port": 443,
-      "password": "865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01",
+      "uuid": "cc4d63e2-3a86-49b3-9598-328bbe93e56c",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "streambox.wwwinternetvideo.click",
-        "insecure": false
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "yI6maXxTQ8zRHg39X8YMQtKW-IVfNIn0_OCUIQKmcXw",
+          "short_id": ""
+        }
       }
     },
     {

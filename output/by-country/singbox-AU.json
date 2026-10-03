@@ -4,23 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-      "server": "160.187.100.109",
+      "type": "trojan",
+      "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+      "server": "au-1.tr202613.com",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "password": "2ni2H9zUKdDCjREL8Z",
       "tls": {
         "enabled": true,
-        "server_name": "off",
+        "server_name": "au-1.tr202613.com",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
-      "server": "34.80.248.240",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+      "server": "35.197.168.118",
       "server_port": 443,
-      "uuid": "31a40f42-4ad6-4a32-a760-71102b459584",
+      "uuid": "4f865f35-cf47-4e7f-a7e6-8882511a1b36",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
@@ -30,8 +30,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "qvekI7tKB1NDnZA6JcS_24aV4n8mlCbI3SFvkRr22wg",
-          "short_id": "d74a6321deec9f31"
+          "public_key": "OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4",
+          "short_id": "8a7d5e0248cdb1b1"
         }
       }
     },
@@ -40,16 +40,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

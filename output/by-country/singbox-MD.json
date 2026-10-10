@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
-      "server": "185.147.27.131",
+      "server": "185.147.27.128",
       "server_port": 443,
       "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "tls": {

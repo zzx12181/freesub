@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
-  server: 185.147.27.131
+  server: 185.147.27.128
   port: 443
   udp: true
   type: vless

@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 32.236.157.157
+  server: vpn-au-001.fastervpn.world
   port: 443
   udp: true
   type: hysteria2

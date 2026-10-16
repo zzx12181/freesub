@@ -6,20 +6,20 @@
     {
       "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "uk3-2.998998.best",
-      "server_port": 443,
-      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
+      "server": "172.67.167.78",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "server22.9966338.xyz",
+        "server_name": "v2ray1.dozapp.xyz",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/serhrdftshg",
+        "path": "/lMnsZUN4/",
         "headers": {
-          "Host": "server22.9966338.xyz"
+          "Host": "v2ray1.dozapp.xyz"
         }
       }
     },

@@ -15,17 +15,17 @@ proxies:
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
-  server: 82.117.255.174
+  server: 46.28.67.55
   port: 443
   udp: true
   type: vless
-  uuid: 679439c5-28f2-485e-af5f-60a5fcd9c36c
+  uuid: d1a6a033-fdbd-46a6-a177-3370ba042b9f
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 0QDBHaCRO2dPeeSVy3B3R_U12ZOvbvWl1JTFW_ZcpD0
-    short-id: 31e91d43e553bf32
-  servername: gateway.icloud.com
+    public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
+    short-id: d06d78e974491b6e
+  servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
   server: 146.70.124.85
@@ -39,8 +39,21 @@ proxies:
     public-key: byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE
     short-id: fe24f8a0a560056e
   servername: www.datadoghq.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
+  server: 82.117.255.174
+  port: 443
+  udp: true
+  type: vless
+  uuid: 679439c5-28f2-485e-af5f-60a5fcd9c36c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0QDBHaCRO2dPeeSVy3B3R_U12ZOvbvWl1JTFW_ZcpD0
+    short-id: 31e91d43e553bf32
+  servername: gateway.icloud.com
+  client-fingerprint: chrome
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
   server: 185.156.44.99
   port: 443
   udp: true
@@ -57,6 +70,7 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
   - 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
   - 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -66,5 +80,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
   - 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
   - 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
+  - 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,15 +4,17 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
+      "type": "vless",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe",
+      "server": "5.253.29.254",
+      "server_port": 14430,
+      "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
       "transport": {
         "type": "ws",
-        "path": "/vmess/"
+        "path": "/vless",
+        "headers": {
+          "Host": "5.253.29.254"
+        }
       }
     },
     {
@@ -20,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

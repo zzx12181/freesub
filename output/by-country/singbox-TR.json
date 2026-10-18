@@ -6,19 +6,19 @@
     {
       "type": "trojan",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "104.21.48.18",
-      "server_port": 2053,
-      "password": "e309e031-991e-4656-9934-44d10deb8fd8",
+      "server": "139.28.240.24",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "nimm.mpd.cc.cd",
+        "server_name": "www.pleadcourt.org",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/0962",
+        "path": "/assignment",
         "headers": {
-          "Host": "nimm.mpd.cc.cd"
+          "Host": "www.pleadcourt.org"
         }
       }
     },
@@ -47,12 +47,40 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "server": "136.148.64.229",
+      "server_port": 2083,
+      "uuid": "0f32f9e7-d83c-4052-9a5e-103ed967b11c"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "server": "172.67.176.3",
+      "server_port": 2053,
+      "password": "e309e031-991e-4656-9934-44d10deb8fd8",
+      "tls": {
+        "enabled": true,
+        "server_name": "nimm.mpd.cc.cd",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/0962",
+        "headers": {
+          "Host": "nimm.mpd.cc.cd"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
       ]
     },
     {
@@ -60,7 +88,9 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

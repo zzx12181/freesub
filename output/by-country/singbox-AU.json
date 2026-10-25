@@ -5,43 +5,43 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-      "server": "13.143.239.119",
+      "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+      "server": "51.161.204.242",
       "server_port": 443,
-      "uuid": "f36c82e2-e33e-4054-960a-34619d9fdd5b",
+      "uuid": "a14b736b-a92a-48d6-a596-5d31f7378ded",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.transip.nl",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "kYbLeoF13TKNPtlYwRsAqFQR3l7v6NMe6ydARMIfEC0",
-          "short_id": "7230e3b3f137543c"
+          "public_key": "a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE",
+          "short_id": "d15c17cef9b2e456"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe",
-      "server": "ee1.mycloud1.org",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+      "server": "51.161.204.244",
       "server_port": 443,
-      "uuid": "605dea9b-b485-45c9-af9b-cc2b0195023c",
+      "uuid": "36e89875-9c53-482b-bc41-d3890e9da176",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ee1.mycloud1.org",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E",
-          "short_id": "afee962d"
+          "public_key": "gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk",
+          "short_id": "0ad08b47f498efd2"
         }
       }
     },
@@ -50,16 +50,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

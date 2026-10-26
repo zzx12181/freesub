@@ -1,0 +1,39 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vmess",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
+      "server": "45.144.48.32",
+      "server_port": 56080,
+      "uuid": "f4daaec7-0e1e-4c8e-97e8-cff5347c2dae",
+      "security": "auto"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

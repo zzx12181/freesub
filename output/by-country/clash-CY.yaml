@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
+  server: 194.76.147.34
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 4b1be712-774c-4b65-8491-a3339e124a70
+  sni: hys-eu.letsconnectpoint.com
+  skip-cert-verify: false
+- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
   server: 5.253.28.240
   port: 40443
   udp: true
@@ -17,7 +25,7 @@ proxies:
     short-id: 88b6
   servername: deepl.com
   client-fingerprint: firefox
-- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
+- name: 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
   server: hydra.yokkastars.com
   port: 2443
   udp: true
@@ -39,6 +47,7 @@ proxy-groups:
   - AUTO
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
+  - 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -46,5 +55,6 @@ proxy-groups:
   proxies:
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
+  - 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
 rules:
 - MATCH,PROXIES

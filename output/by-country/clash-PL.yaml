@@ -11,12 +11,6 @@ proxies:
   type: vless
   uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
 - name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 168.222.43.53
-  port: 2052
-  udp: true
-  type: vless
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
   server: 70.34.252.255
   port: 443
   udp: true
@@ -24,6 +18,12 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   skip-cert-verify: false
+- name: 🇵🇱 波兰 (Poland) 03 - xiaohe
+  server: 168.222.43.53
+  port: 2052
+  udp: true
+  type: vless
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
 - name: 🇵🇱 波兰 (Poland) 04 - xiaohe
   server: 54.37.131.126
   port: 80
@@ -38,19 +38,6 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 - name: 🇵🇱 波兰 (Poland) 05 - xiaohe
-  server: 201.58.181.231
-  port: 4443
-  udp: true
-  type: vless
-  uuid: fafc7c16-f890-45ee-a856-02df225172dd
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: kn7Lh0yi6CYrHW5KpiQrfrs9FED-mbbEEKgOoiDkx2M
-    short-id: 858affa9443ebac6
-  servername: www.kinopoisk.ru
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
   server: 2.26.6.1
   port: 2087
   udp: true
@@ -69,7 +56,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 03 - xiaohe
   - 🇵🇱 波兰 (Poland) 04 - xiaohe
   - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -80,6 +66,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 03 - xiaohe
   - 🇵🇱 波兰 (Poland) 04 - xiaohe
   - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-      "server": "staging.lastilhame.monster",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
+      "server": "185.215.184.85",
       "server_port": 443,
-      "uuid": "de38389f-5651-4f2f-8276-5aabf3b861c9",
+      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.hollywoodreporter.com",
+        "server_name": "dvizhok.su",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "short_id": "225e930cfd4d"
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

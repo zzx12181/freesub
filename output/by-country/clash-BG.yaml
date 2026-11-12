@@ -5,40 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 104.19.45.195
+  server: 88.80.150.15
   port: 443
   udp: true
-  type: trojan
-  password: pH[]S[Bh:_:D6T4k
-  sni: AZaDneT-692.PagEs.DEv
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trsVu9Ualb1DOfGjpw
-- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
-  server: 191.44.112.170.sslip.io
-  port: 443
-  udp: true
-  type: trojan
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
-  sni: orbylume.my.to
+  type: vless
+  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
+  tls: true
+  servername: bg2.oncloudvpn.com
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tvpn-trojan/bg
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  - 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
 rules:
 - MATCH,PROXIES

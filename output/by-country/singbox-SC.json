@@ -27,13 +27,13 @@
     {
       "type": "vless",
       "tag": "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-      "server": "188.225.24.62",
+      "server": "188.225.24.192",
       "server_port": 443,
       "uuid": "c0c949fc-2ed6-4597-b680-a1a3276ebf87",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "img.bokovskay.app",
+        "server_name": "portal.bokovskay.app",
         "insecure": false,
         "utls": {
           "enabled": true,

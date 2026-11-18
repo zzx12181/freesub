@@ -5,6 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  server: 150.95.109.109
+  port: 2086
+  udp: true
+  type: vless
+  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
+- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
   server: zfapi.zalolink.com
   port: 55688
   udp: true
@@ -17,12 +23,6 @@ proxies:
     short-id: 865c1b2c
   servername: bilibili-vn.biliimg.com
   client-fingerprint: chrome
-- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  server: 150.95.109.109
-  port: 2086
-  udp: true
-  type: vless
-  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
 proxy-groups:
 - name: PROXIES
   type: select

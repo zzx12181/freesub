@@ -13,23 +13,13 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
-  server: 152.69.226.63
-  port: 25555
+  server: 211.178.105.134
+  port: 6123
   udp: true
-  type: vless
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
-  network: ws
-  ws-opts:
-    path: /
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - name: 🇰🇷 韩国 (South Korea) 03 - xiaohe
-  server: 152.67.200.82
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
-  sni: google.com
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
   server: 152.70.237.123
   port: 2053
   udp: true
@@ -37,29 +27,22 @@ proxies:
   password: maintell
   sni: bing.com
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 05 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
   server: 132.226.226.189
   port: 50160
   udp: true
   type: hysteria2
   password: 1671a252e2a97dc2bda4e515475931da
-  sni: 132.226.226.189
+  sni: www.bing.com
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 06 - xiaohe
-  server: 104.25.128.15
-  port: 443
+- name: 🇰🇷 韩国 (South Korea) 05 - xiaohe
+  server: 152.67.200.82
+  port: 50160
   udp: true
-  type: vless
-  uuid: db906786-8c49-4b17-9182-cea680ef954d
-  tls: true
-  servername: krc.80782636.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /kw7x2mq9
-    headers:
-      Host: krc.80782636.xyz
+  type: hysteria2
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  sni: www.bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -70,7 +53,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 03 - xiaohe
   - 🇰🇷 韩国 (South Korea) 04 - xiaohe
   - 🇰🇷 韩国 (South Korea) 05 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -81,6 +63,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 03 - xiaohe
   - 🇰🇷 韩国 (South Korea) 04 - xiaohe
   - 🇰🇷 韩国 (South Korea) 05 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 06 - xiaohe
 rules:
 - MATCH,PROXIES

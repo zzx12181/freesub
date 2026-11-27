@@ -6,22 +6,20 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "18.172.170.42",
-      "server_port": 443,
-      "uuid": "963A4918-A630-29DA-A873-093CDF8AD784",
+      "server": "leviko-tr3795.shopingggg.ir",
+      "server_port": 50738,
+      "uuid": "56665684-5ac0-4ba9-9d49-8b258fb57974",
       "tls": {
         "enabled": true,
-        "server_name": "deldgy5xz81zm.cloudfront.net",
+        "server_name": "turkey-ip1.mmdaqaorg.xyz",
         "insecure": false,
         "alpn": [
+          "h2",
           "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "deldgy5xz81zm.cloudfront.net"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

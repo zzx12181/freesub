@@ -5,19 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 18.172.170.42
-  port: 443
+  server: leviko-tr3795.shopingggg.ir
+  port: 50738
   udp: true
   type: vless
-  uuid: 963A4918-A630-29DA-A873-093CDF8AD784
+  uuid: 56665684-5ac0-4ba9-9d49-8b258fb57974
   tls: true
-  servername: deldgy5xz81zm.cloudfront.net
+  servername: turkey-ip1.mmdaqaorg.xyz
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: deldgy5xz81zm.cloudfront.net
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

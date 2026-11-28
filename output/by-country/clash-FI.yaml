@@ -4,30 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇬🇷 希腊 (Greece) 01 - xiaohe
-  server: leviko-gr9245.shopingggg.ir
+- name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
+  server: 65.109.171.194
   port: 443
   udp: true
   type: vless
-  uuid: 8f704ed6-9a1a-4d04-94dd-1bff501716de
+  uuid: da14e323-6af7-406f-a5c2-1eb7975ada8b
   flow: xtls-rprx-vision
   tls: true
-  reality-opts:
-    public-key: biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4
-    short-id: 94acb54627612d43
-  servername: www.cloudflare.com
+  servername: mail1.besttotaldns.com
+  skip-cert-verify: false
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇬🇷 希腊 (Greece) 01 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇬🇷 希腊 (Greece) 01 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 01 - xiaohe
 rules:
 - MATCH,PROXIES

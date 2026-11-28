@@ -5,26 +5,19 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 01 - xiaohe",
-      "server": "195.58.46.231",
-      "server_port": 443,
-      "uuid": "bbb945a6-7d16-4099-b802-d3a7ccebd3ca",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
+      "server": "196.198.111.166",
+      "server_port": 8443,
+      "uuid": "f121ffc8-f6dc-4728-a871-a05e3f9cf8c5",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "node43.lmdscdn.ru",
+        "server_name": "usr-6b09ce88-api-v3.alcors.net",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA",
-          "short_id": "b8abb26d3cfadcfb"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "livestreamcontent"
       }
     },
     {
@@ -32,14 +25,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 泰国 (Thailand) 01 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
